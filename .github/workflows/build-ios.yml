@@ -8,7 +8,7 @@ jobs:
     name: iOS Build (IPA)
     runs-on: macos-latest
     permissions:
-      contents: write
+      contents: read
     env:
       APPLE_DEVELOPMENT_TEAM: "ABCDE12345"
     steps:
