@@ -62,7 +62,6 @@ jobs:
             /usr/libexec/PlistBuddy -c "Add :NSAppTransportSecurity dict" "$plist"
             /usr/libexec/PlistBuddy -c "Add :NSAppTransportSecurity:NSAllowsArbitraryLoads bool true" "$plist"
           done
-        
 
       - name: 构建 iOS 应用与打包 IPA
         shell: bash
