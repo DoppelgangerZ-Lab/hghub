@@ -9,8 +9,7 @@ jobs:
     runs-on: macos-latest
     permissions:
       contents: read
-    env:
-      APPLE_DEVELOPMENT_TEAM: "ABCDE12345"
+  
     steps:
       - uses: actions/checkout@v4
 
